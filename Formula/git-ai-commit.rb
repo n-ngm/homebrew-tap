@@ -5,6 +5,8 @@ class GitAiCommit < Formula
   sha256 "7eb6aef9d31b550677e524b2ee75a11f7b31583e661110bccc65f55e3a8a7e0a"
   license "MIT"
 
+  depends_on "jq"
+
   def install
     bin.install "git-ai-commit"
   end
